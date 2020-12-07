@@ -1,0 +1,469 @@
+@import url('http://fonts.cdnfonts.com/css/latin-modern-roman');
+body{
+    font-family: 'LMRoman10', sans-serif;
+    font-family: 'LMRomanCaps10', sans-serif;
+    font-family: 'LMRomanDunh10', sans-serif;
+    font-family: 'LMRomanSlant10', sans-serif;
+    font-family: 'LMRomanDemi10', sans-serif;
+                                                
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url("city.png");
+    margin: 0%;
+    padding: 0%;
+    
+}
+   .logo{
+    box-shadow: 4px 5px 5px 3px #b1aeaeea;
+    background-color: rgb(37, 182, 182);
+   }
+    #welcome{
+        padding: 1% ;     
+        height:auto;
+        float: right;
+    }
+    header img{
+        background-color: white;
+        width: 16%;
+        margin:auto;
+        padding: 10px 2%;
+    }
+    .notification{
+        background-color: transparent;
+        width:22px;
+        height:22px;
+    }
+    .pass{
+        margin-top:15px;
+    }
+	ul{ 
+        position: fixed;
+         z-index: 1;
+        box-shadow: 4px 5px 5px  #b1aeaeea;
+        float:left;
+		margin:0;
+		padding :0;
+		background-color:white;
+		overflow: hidden;		
+        line-height:4.5vw;
+        width:20%;
+        height: 100%;
+       
+		}
+
+		ul li{	
+            border-bottom-style: solid;
+            border-color: white;
+            color: rgb(30, 151, 151);
+			font-size: 17px; 
+			}
+		ul li a{
+            color: rgb(30, 151, 151);
+			display:block;
+			text-decoration:none;
+			padding:0 16px;
+			}
+		ul li a:hover{
+            box-shadow: 1px 1px 5px 3px #727070ea;
+			background-color:rgb(30, 151, 151);
+			color: white;
+			}	
+		.active a{
+            background-color:white;
+			color: rgb(30, 151, 151);
+        }	
+    #content{
+       
+        margin: 10px 8px;
+        margin-left: 25%;
+        margin-top: 2vw;
+    }    
+
+    #toprow{
+        height:27%;
+       
+       margin-top: 2vw;
+       margin-right: 4vw;
+       
+    }
+    
+    #ceneterrow{
+        height:27%;
+       
+        margin-top: 2vw;
+        margin-right: 4vw;
+    }
+    #bottomrow{
+        height:27%;
+        
+        margin-top: 2vw;
+        margin-right: 4vw;
+    }
+    #left{
+        color:rgb(255, 255, 255);
+        text-align: center;
+        height:100%;
+        box-shadow: 4px 5px 5px 3px #b1aeaeea;
+       
+        background-color:rgba(2, 178, 184, 0.781);
+        margin-left: 1vw;
+        width:31%;
+        margin-bottom: 1vw;
+        float: left;
+    }
+    #left:hover{
+        background-color:rgb(48, 48, 48);
+        color:rgb(37, 182, 182);
+        height: 105%;
+        width: 31%;
+        z-index: 12;
+        box-shadow: 8px 8px 20px 3px #474646fd;
+    }
+    #left a{
+        color:white;
+        bottom: 0; 
+        display: block;
+    }
+    .incomepie{
+        display: inline;
+        margin-top:18px;
+        width:13%;
+        height:20%;
+    }
+    .pie{
+        margin-top:1.5vw;
+        width:40%;
+        height: 60%;
+    }
+    #center{
+        color:rgb(255, 255, 255);
+        text-align: center;
+        height:100%;
+        box-shadow: 4px 5px 5px 3px #b1aeaeea;
+       
+        background-color:rgba(2, 178, 184, 0.856);
+        margin-left: 2vw;
+        width:31%;
+        margin-bottom: 1vw;
+        float: left;
+    }
+    #center:hover{
+        background-color:rgb(48, 48, 48);
+        color:rgb(37, 182, 182);
+        height: 105%;
+        width: 31%;
+        z-index: 12;
+        box-shadow: 8px 8px 20px 3px #474646fd;
+    }
+    #center a{
+        border-radius: 90px;
+        color:white;
+        bottom: 0; 
+        display: block;
+    }
+    #right{
+        color:rgb(255, 255, 255);
+        text-align: center;
+        height:100%;
+        box-shadow: 4px 5px 5px 3px #b1aeaeea;
+        
+        background-color:rgba(2, 178, 184, 0.932);
+        margin-left: 1vw;
+        width:31%;
+        margin-bottom: 1vw;
+        float: right;
+    }
+    #right a{
+        color:white;
+        bottom: 0; 
+        margin-top:-2px;
+        display: block;
+    }
+    #right:hover{
+        background-color:rgb(48, 48, 48);
+        color:rgb(37, 182, 182);
+        height: 105%;
+        width: 31%;
+        z-index: 12;
+        box-shadow: 8px 8px 20px 3px #474646fd;
+    }
+    #userdetails{
+        box-shadow: 4px 5px 5px 3px #b1aeaeea;
+        padding: 10px 10px;     
+        margin-bottom: 6px;
+        width: 80%;
+        background-color: white;
+        border-radius: 15px;
+    }    
+    #total-income{
+        box-shadow: 4px 5px 5px 3px #b1aeaeea;
+        margin-top: 11px;
+        padding: 10px 10px;     
+        background-color: white;
+        width: 80%;
+        border-radius: 15px;
+    }
+    
+   #filter input, label, button{
+       margin-top:20px;
+   }
+    #userheading{
+        color:rgb(255, 255, 255);
+    }
+    a{  
+        color:rgb(30, 151, 151);
+        text-decoration: none;
+    }
+
+    table {
+        font-size:13px;
+        table-layout: fixed;
+        border-collapse: collapse;
+        font-weight: lighter;
+        width: 100%;
+      }
+      
+     table td, table th {
+        font-weight: lighter;
+        
+        word-wrap: break-word;
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+     table tr{background-color:none;}
+      
+      table tr:hover {background-color: #ddd;
+        box-shadow: 1px 1px 5px 3px #727070ea;
+        }
+      
+      table th {
+        text-transform: uppercase;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(30, 151, 151);
+        color: white;
+        
+      }
+      th{
+          
+        font-size:13px;
+        font-weight: lighter;
+      }
+     
+      #seperation{
+        margin-top: 14px;
+      }
+      
+    .edit{
+        font-size:15px;
+        padding:2px;
+        color: white;
+        
+        
+        text-transform: uppercase;
+    }
+    
+    .change{
+        background-color: rgb(0, 161, 167);
+        padding:4px;
+        color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .password{
+        background-color: rgb(0, 161, 167);
+        padding:4px;
+        color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .passbut{
+        margin-top:70px;
+        background-color: rgb(0, 161, 167);
+        padding:4px;
+        color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    .delete:hover {box-shadow: 1px 1px 5px 3px #b1aeaeea;}
+    #sort{
+        
+        text-transform: uppercase;
+        width: 10%;
+        display: inline;
+    }
+    #filter{
+        text-transform: uppercase;
+        width: 10%;
+        display: inline;
+    }
+    #sort button{
+        text-transform: uppercase;
+        padding: 6px 12px;
+        border-style: none;
+        background-color: rgb(48, 48, 48);
+        color:white;
+    }
+    #filter button{
+        text-transform: uppercase;
+        padding: 6px 12px;
+        background-color: rgb(48, 48, 48);
+        color:white;
+        border-style: none;
+    }
+    #heading{
+        text-transform: uppercase;
+        padding: 6px 12px;
+        border-style: none;
+        background-color: rgb(48, 48, 48);
+        color:white;
+    }
+    button{
+        margin-left: 5px;
+       
+        border:none;
+        background-color: rgb(0, 161, 167);
+        color:white;
+        height:25px;
+    }
+    button:hover{
+        box-shadow: 1px 1px 5px 3px #727070ea;
+    }
+    .details{
+        display:inline;
+    }
+    input{
+        border-style: none;
+        background-color: rgba(168, 165, 165, 0.479);
+        height:25px;
+    }
+    input:hover{
+        box-shadow: 1px 1px 6px 3px #727070ea;
+    }
+    select{
+        
+        border-style: none;
+        background-color: rgba(168, 165, 165, 0.479);
+        height:25px;
+        color: rgb(0, 161, 167);
+    }
+    select:hover{
+        box-shadow: 1px 1px 6px 3px #727070ea;
+    }
+    /* Dropdown Button */
+.dropbtn {
+    margin:0;
+    padding: 0;
+    background-color: rgb(0, 161, 167);
+    color: white;
+    padding: 1vw;
+    height: auto;
+    margin-right:50px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtnm {
+    margin:0;
+    padding: 0;
+    background:white ;
+    color: rgb(0, 161, 167);
+    padding: 1vw;
+    height: auto;
+    margin-right:50px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtnm:hover {
+    
+    background-color: transparent ;
+    color: white;
+    box-shadow: none;
+  }
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdownm {
+    position: relative;
+    
+  }
+  ul li a{
+     display: inline-flex;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdownm-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdownm-content a {
+    color: rgb(0, 161, 167);
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdownm-content a:hover { background-color:  rgb(0, 161, 167);}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdownm:hover .dropdownm-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(87, 86, 86);}
+  
+  .dropdownm:hover .dropbtn{
+        background-color: rgb(0, 161, 167); 
+        color:white;                       
+    }
+  #resicon{
+    width:25px;
+   height:25px;
+}
+#acc{
+    width:80px;
+    height:80px;
+}
+ .noti{
+    float:left;
+    position: relative;
+  }
+  .notibtn{
+        height:7vh;
+        background-color: transparent;
+        padding:1vh;
+  }
+  #notival{
+      position: absolute;
+      margin-bottom: 20px;
+      border:2px solid;
+      color:rgb(0, 161, 167); 
+        
+  }

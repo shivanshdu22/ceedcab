@@ -1,0 +1,247 @@
+body{
+    
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+sign-up{
+    font-weight: bold;
+    box-shadow:  4px 4px 5px rgb(189, 187, 187);
+    padding: 12px 42px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(30, 151, 151)  ;
+    font-size: 15px;
+    }
+.jumbotron{
+    background-image: linear-gradient(rgba(131, 182, 182, 0.788) ,rgba(72, 116, 116, 0.705)) ,url("blur.jpg");
+    background-position: center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    border-radius: 0 !important;
+    padding-top: 1vw;
+}    
+.tablecon{
+    color:white;
+    background-color: rgba(71, 71, 71, 0.521);
+    padding-bottom: 0;
+}
+.tablecon td{
+    color:white;
+    background-color: rgba(7, 7, 7, 0.801);
+}
+.dataTables_wrapper .dataTables_length select{
+    background-color: rgba(7, 7, 7, 0.801);
+    color:white;
+}
+.dataTables_wrapper .dataTables_length{
+    border:none;
+    color:white;
+}
+.dataTables_wrapper .dataTables_filter input{
+    box-shadow: none;
+    background-color: rgba(7, 7, 7, 0.801);
+    color:white;
+}
+.dataTables_wrapper .dataTables_filter th{
+   
+    background-color: rgba(7, 7, 7, 0.801);
+    color:white;
+}
+
+#sort{
+        
+    text-transform: uppercase;
+    width: 10%;
+    display: inline;
+}
+img{
+	max-width:100%;
+    height: auto;
+}
+#resicon{
+    width:25px;
+   height:25px;
+}
+#acc{
+    width:80px;
+    height:80px;
+}
+a{
+    text-decoration: none;
+}
+select::-ms-expand {
+    display: none;
+}
+#signform{
+   
+    box-shadow:  4px 4px 5px 5px rgba(87, 84, 84, 0.5);
+    background-color: white;
+}
+form{
+    margin: .1vw;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: small;
+  }
+  
+input{
+    color: #443f3f ;
+    margin: 4px;
+    margin-left: 0;
+    box-shadow:  2px 2px 2.5px rgb(196, 194, 194);
+    padding-left: 5px;
+    height: 35px;
+    border: none;
+    background-color: #cec6c6b4;
+    width: 30vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 4px;
+    margin-left: 0;
+    box-shadow:  2px 2px 2.5px rgb(196, 194, 194);
+    padding-left: 5px;
+    height: 35px;
+    border: none;
+    background-color: #cec6c6b4;
+    width: 30vw;
+    color: #443f3f ;
+}
+select:invalid { color: gray; 
+                font-size: small;}
+
+#cal{
+    font-weight: bold;
+    box-shadow:  2px 2px 2.5px rgb(196, 194, 194);
+    padding: 12px 42px;
+    color: white;
+    background-color: rgb(30, 151, 151) ;
+    font-size: 15px;
+    width: 30vw;
+}
+.book{
+    margin-top:10px;
+    font-weight: bold;
+    box-shadow:  2px 2px 2.5px rgb(196, 194, 194);
+    padding: 12px 42px;
+    color: rgb(30, 151, 151) ;
+    background-color: rgb(56, 56, 56) ;
+    font-size: 15px;
+    width: 30vw;
+}
+
+button{
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    #signform{
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+    option{
+        font-size: small;
+        width: auto;
+    }
+    select{
+        width: 320px;
+        box-shadow:  none;
+        
+    }
+    #cal{
+        box-shadow:  none;
+        width: 320px;
+    }
+    option{
+        width: 320px;
+    }
+    input{
+        box-shadow:  none;
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 765px) {
+    #signform{
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+    select{
+        box-shadow:  none;
+        width: 500px;
+        
+    }
+    option{
+        width: 500px;
+    }
+    #cal{
+        box-shadow:  none;
+        width: 500px;
+    }
+    input{
+        box-shadow:  none;
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #sign-up{
+        display: none;
+    }
+    form{
+        margin: 0;
+    }
+    select{
+        box-shadow:  none;
+        width: 320px;
+        
+    }
+    option{
+        width: 320px;
+    }
+    #cal{
+        box-shadow:  none;
+        width: 320px;
+    }
+    input{
+        box-shadow:  none;
+        width: 320px;
+    }
+    #signform{
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    #signform{
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+    select{
+        box-shadow:  none;
+        width: 250px;
+        
+    }
+    option{
+        width: 250px;
+    }
+    #cal{
+        box-shadow:  none;
+        width: 250px;
+    }
+    input{
+        box-shadow:  none;
+        width: 250px;
+    }
+  
+}
+#resicon{
+
+    width:25px;
+   height:25px;
+}

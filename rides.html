@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>CEDCAB</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    <body>
+       <?php include "header.php" ?>
+        <div id="content">
+            <div id="welcome">
+               Welcome User,
+               <p><a href="#"><span id="userheading">Sign Out</span></a> || <a href="index.php"><span id="userheading">Go To Main Page</span></a> </p>
+            </div>             
+            <div id="userdetails">
+                <table border="1">
+                    <p>Pending</p> 
+                    <tr>
+                        <th>Ride_ID</th>
+                        <th>Ride_date</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Total Distance</th>
+                        <th>Total Fare</th>
+                        <th>Customer ID</th>
+                        <th>Option</th>
+                    </tr>
+                </table>
+            </div>
+            <div id="total-income">
+                <table border="1">
+                    <p>Ride History</p> 
+                    <tr>
+                        <th>Ride_ID</th>
+                        <th>Ride_date</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Total Distance</th>
+                        <th>Total Fare</th>
+                        <th>Customer ID</th>
+                        <th>Status</th>
+                        <th>Option</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CEDCAB</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <img class="mb-2" src="logo2.png" style="width:150px;" alt="Logo" >
+            </div>	
+            <ul>
+                <li><a href="admin.php">DASHBOARD</a></li>
+                <li><a href="ride.php">RIDES</a></li>
+                <li><a href="invoice.php">INVOICES</a></li>
+                <li><a href="users.php">BLOCK/UNBLOCK USER</a></li>
+                <li><a href="data.php">ALL DATA</a></li>
+                <li><a href="location.php">LOCATIONS</a></li>
+            </ul>
+        </header>
+        <div id="content">
+            <div id="welcome">
+               Welcome User,
+               <p><a href="#"><span id="userheading">Sign Out</span></a> || <a href="index.php"><span id="userheading">Go To Main Page</span></a> </p>
+            </div>             
+            <div id="userdetails">
+                <p><h3><span id="userheading">User Details</span></h3></p>
+                <p><span id="userheading">User Id</span>: 25</p>
+                <p><span id="userheading">Username</span> : admin</p>
+                <p><span id="userheading">Name</span>: ADMIN</p> 
+                <p><span id="userheading">Date of Sign-Up</span>: 22/03/1999</p>
+                <p><span id="userheading">Mobile</span>: 1234567891</p>
+            </div>
+            <div id="total-income">
+                <span id="userheading">Total income made till 24/11/2020</span> : 150 Rs
+            </div>
+        </div>
+    </body>
+</html>
