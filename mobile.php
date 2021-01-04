@@ -12,7 +12,6 @@
             $otp = rand(100000, 999999);
             $_SESSION['session_otp'] = $otp;
             $message = rawurlencode("Your One Time Password is ".$otp);
-
             $fields = array(
                 "sender_id" => "FSTSMS",
                 "message" => ".$message.",
